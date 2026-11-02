@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>User guide · Money Manager</title>
+  <meta name="description" content="How to use Money Manager: accounts, transactions, budgets, investments, loans, savings goals, recurring items, reports, and backup and restore.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#185FA5">
+  <link rel="canonical" href="https://shohansk.github.io/money-manager-site/guide.html">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23185FA5'/%3E%3Crect x='6' y='9' width='20' height='15' rx='3' fill='none' stroke='white' stroke-width='2'/%3E%3Ccircle cx='21' cy='16.5' r='1.6' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Money Manager home">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#185FA5"/><path d="M8 11.5V10a2 2 0 0 1 2-2h11" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/><rect x="6" y="11" width="20" height="14" rx="3" fill="none" stroke="#fff" stroke-width="2"/><path d="M26 15.5h-4.5a2 2 0 0 0 0 4H26" fill="none" stroke="#fff" stroke-width="2"/><circle cx="21.8" cy="17.5" r="1.1" fill="#fff"/></svg>
+        Money Manager
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="guide.html" aria-current="page">User guide</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <div class="page-head prose">
+        <h1 id="top">User guide</h1>
+        <p>Everything you need to get started with Money Manager and keep your records accurate over time. Amounts below are shown without a currency symbol; the app shows them in the currency you choose.</p>
+      </div>
+
+      <div class="doc-layout">
+        <nav class="toc" aria-labelledby="toc-title">
+          <h2 id="toc-title">On this page</h2>
+          <ol>
+            <li><a href="#getting-started">Getting started</a></li>
+            <li><a href="#transactions">Income, expenses and transfers</a></li>
+            <li><a href="#daily-tips">Daily tracking tips</a></li>
+            <li><a href="#budgets">Budgets</a></li>
+            <li><a href="#investments">Investments</a></li>
+            <li><a href="#loans">Loans</a></li>
+            <li><a href="#goals">Savings goals</a></li>
+            <li><a href="#recurring">Recurring items</a></li>
+            <li><a href="#reports">Dashboard and reports</a></li>
+            <li><a href="#backup">Backup and restore</a></li>
+            <li><a href="#new-phone">Moving to a new phone</a></li>
+            <li><a href="#app-lock">App lock</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ol>
+        </nav>
+
+        <div class="doc-content prose">
+          <section id="getting-started">
+            <h2>Getting started</h2>
+            <h3>Choose your currency</h3>
+            <p>On first launch, the app asks which currency to use. It suggests one based on your phone's region, and you can pick any standard currency. Amounts are formatted the way your phone's language and region settings expect, for example with the right decimal and thousands separators.</p>
+            <p>You can change the currency later in <strong>Settings</strong>. This only changes how amounts are displayed. It does not convert them, so a balance of 1,000 stays 1,000 in the new currency.</p>
+
+            <h3>Add your first account</h3>
+            <p>An account is any place money lives: your wallet, a bank account, a mobile wallet or a credit card.</p>
+            <ol>
+              <li>Open <strong>Accounts</strong> and tap <strong>Add account</strong>.</li>
+              <li>Give it a name (for example "Wallet" or "Main bank") and choose a type.</li>
+              <li>Enter the <strong>opening balance</strong>: how much is in it today. For a credit card, enter what you currently owe as a negative amount.</li>
+              <li>Save. Add your other accounts the same way.</li>
+            </ol>
+            <p>Account balances are never typed in after that. The app calculates them from the opening balance plus every entry linked to the account, so they always match your records. If you stop using an account, archive it instead of deleting it so its history stays intact.</p>
+
+            <h3>Set up categories</h3>
+            <p>The app comes with a set of common categories such as Food, Transport, Rent, Utilities and Salary. You can rename them, add your own, and add one level of subcategories, for example <em>Food → Groceries</em> and <em>Food → Eating out</em>.</p>
+            <p>Keep the list short at first. It is easier to split a category later than to tidy up dozens of rarely used ones.</p>
+          </section>
+
+          <section id="transactions">
+            <h2>Income, expenses and transfers</h2>
+            <p>Tap the add button and choose the type of entry.</p>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Type</th><th>Use it for</th><th>Effect on balance</th></tr></thead>
+                <tbody>
+                  <tr><td>Income</td><td>Salary, freelance payments, gifts, refunds</td><td>Adds to the account</td></tr>
+                  <tr><td>Expense</td><td>Anything you spend</td><td>Subtracts from the account</td></tr>
+                  <tr><td>Transfer</td><td>Moving money between your own accounts, such as a cash withdrawal or paying a credit card</td><td>Subtracts from one account, adds to the other</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p>Each entry has an amount, a date, an account, and for income and expenses a category. You can add a note and tags (for example <code>trip</code> or <code>office</code>) to find related entries later. Photo or receipt attachments are not available in the mobile app at the moment.</p>
+            <div class="callout">
+              <p>Use a <strong>transfer</strong>, not an expense plus an income, when moving money between your own accounts. Transfers don't count as spending or earning, so your reports stay accurate.</p>
+            </div>
+            <p>To fix a mistake, open the entry and edit or delete it. Balances update immediately.</p>
+          </section>
+
+          <section id="daily-tips">
+            <h2>Daily tracking tips</h2>
+            <ul>
+              <li><strong>Record at the moment you pay.</strong> Ten seconds at the counter beats trying to remember a week later.</li>
+              <li><strong>Pick one evening check-in.</strong> Glance at the day's entries and add anything you missed.</li>
+              <li><strong>Group small cash spending.</strong> If tracking every tea or bus fare is too much, add one "Daily cash" expense at the end of the day.</li>
+              <li><strong>Reconcile weekly.</strong> Compare the app's balance with your real wallet or bank. If they differ, add an adjusting entry with a clear note rather than changing the opening balance.</li>
+              <li><strong>Use tags for events.</strong> A tag such as <code>wedding-2026</code> lets you see the total cost of something that spans many categories.</li>
+            </ul>
+          </section>
+
+          <section id="budgets">
+            <h2>Budgets</h2>
+            <p>A budget is a monthly spending limit for one expense category.</p>
+            <ol>
+              <li>Open <strong>Budgets</strong> and choose the month.</li>
+              <li>Tap <strong>Add budget</strong>, pick a category and enter the limit.</li>
+            </ol>
+            <p>Spending in the category's subcategories counts toward its budget. A budget of 15,000 for Food includes Groceries and Eating out.</p>
+            <p>Each budget shows how much you have spent and what is left. It turns to a warning at <strong>80%</strong> of the limit and shows as over budget at <strong>100%</strong>.</p>
+            <p>Budgets apply to one month at a time. Start with your two or three largest categories and adjust the limits after a month or two of real data.</p>
+          </section>
+
+          <section id="investments">
+            <h2>Investments</h2>
+            <p>Use investments for anything you put money into expecting a return: shares, mutual funds, fixed deposits, savings schemes, bonds, gold, crypto, property or a small business. The same rules work for all of them.</p>
+
+            <h3>Recording entries</h3>
+            <p>Create the investment first (name and type), then add entries to it as things happen.</p>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Entry</th><th>When to use it</th></tr></thead>
+                <tbody>
+                  <tr><td>Buy</td><td>You put money in: bought shares, opened a deposit, added capital to a business.</td></tr>
+                  <tr><td>Sell</td><td>You took money out: sold shares, a deposit matured, withdrew from a business.</td></tr>
+                  <tr><td>Income</td><td>Dividends, interest, profit share or rent received.</td></tr>
+                  <tr><td>Expense</td><td>Costs such as account maintenance, management fees, repairs or taxes paid on the investment.</td></tr>
+                  <tr><td>Fees</td><td>Brokerage or transaction charges. Add them on the buy or sell entry itself.</td></tr>
+                  <tr><td>Valuation</td><td>What the investment is worth on a date. Add one whenever you check the market price or get a statement.</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p>If you link an entry to an account, that account's balance moves too: a buy or expense takes money out, a sell or income puts money in. Leave the account empty for entries that didn't pass through any account you track.</p>
+
+            <h3>How profit and ROI are calculated</h3>
+            <pre><code>cost          = buys + expenses + all fees
+returned      = sells + income
+current value = latest valuation
+profit        = returned + current value − cost
+ROI           = profit ÷ cost × 100</code></pre>
+            <p>If you have never added a valuation, current value is estimated as buys minus sells (never below zero). If you mark the investment as closed, current value is zero, and profit is simply what came back minus what it cost.</p>
+
+            <h3>Worked example</h3>
+            <p>You buy 100 shares at 50 each and later sell some of them.</p>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Date</th><th>Entry</th><th class="num">Amount</th><th class="num">Fee</th></tr></thead>
+                <tbody>
+                  <tr><td>10 Jan</td><td>Buy 100 shares at 50</td><td class="num">5,000</td><td class="num">25</td></tr>
+                  <tr><td>15 Jun</td><td>Dividend received</td><td class="num">300</td><td class="num">0</td></tr>
+                  <tr><td>20 Aug</td><td>Sell 40 shares at 60</td><td class="num">2,400</td><td class="num">12</td></tr>
+                  <tr><td>31 Oct</td><td>Valuation: 60 shares at 55</td><td class="num">3,300</td><td class="num">–</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <tbody>
+                  <tr><td>Cost</td><td>5,000 + 25 + 12</td><td class="num">5,037</td></tr>
+                  <tr><td>Returned</td><td>2,400 + 300</td><td class="num">2,700</td></tr>
+                  <tr><td>Current value</td><td>latest valuation</td><td class="num">3,300</td></tr>
+                  <tr><td>Profit</td><td>2,700 + 3,300 − 5,037</td><td class="num gain">+963</td></tr>
+                  <tr><td>ROI</td><td>963 ÷ 5,037 × 100</td><td class="num gain">+19.12%</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p>If the remaining shares were later valued at 2,000 instead, profit would be 2,700 + 2,000 − 5,037 = <span class="loss">−337</span>, an ROI of <span class="loss">−6.69%</span>. Gains are shown in green and losses in red.</p>
+            <p>ROI here is a simple total return on everything you put in. It does not account for how long the money was invested, so compare it with care between a one-month and a five-year holding.</p>
+          </section>
+
+          <section id="loans">
+            <h2>Loans</h2>
+            <p>Track money you <strong>lent</strong> to someone and money you <strong>borrowed</strong>.</p>
+            <ol>
+              <li>Open <strong>Loans</strong> and tap <strong>Add loan</strong>.</li>
+              <li>Choose lent or borrowed, enter the person or lender, the amount, the date and an optional due date.</li>
+              <li>Each time money is paid back, add a <strong>repayment</strong> to the loan.</li>
+            </ol>
+            <p>The loan shows how much has been paid and what is still outstanding. A loan past its due date with money outstanding is flagged as overdue.</p>
+            <p>If you link the loan to an account, lending takes money out of it and borrowing puts money in. Repayments move money the other way. Money owed to you counts toward your net worth, and money you owe is subtracted from it.</p>
+          </section>
+
+          <section id="goals">
+            <h2>Savings goals</h2>
+            <p>A goal is a target amount you want to save, optionally by a date, such as an emergency fund or a new laptop.</p>
+            <ol>
+              <li>Open <strong>Goals</strong>, tap <strong>Add goal</strong>, and enter a name, target amount and optional target date.</li>
+              <li>Add a <strong>contribution</strong> each time you set money aside. To record taking money out, add a negative contribution.</li>
+            </ol>
+            <p>The goal shows the total saved and progress as a percentage of the target.</p>
+          </section>
+
+          <section id="recurring">
+            <h2>Recurring items</h2>
+            <p>For things that repeat, such as salary, rent, subscriptions or loan instalments, create a recurring item instead of typing them every time.</p>
+            <ol>
+              <li>Open <strong>Recurring</strong> and tap <strong>Add</strong>.</li>
+              <li>Fill in the entry as usual (type, amount, account, category).</li>
+              <li>Choose how often: daily, weekly, monthly or yearly, with an interval (for example every 2 weeks), a start date and an optional end date.</li>
+            </ol>
+            <p>When an item is due, the app creates the entry for you. Because the app runs only on your phone, this happens when you open it. If you haven't opened it for a while, it <strong>catches up</strong> and creates every missed entry with its correct date.</p>
+            <p>Monthly items keep their day of the month. An item that starts on the 31st runs on 31 January, 28 February (29 in a leap year) and 31 March, instead of drifting to the 28th for the rest of the year.</p>
+            <p>Check the created entries now and then. If the real amount was different, such as a utility bill, edit that one entry.</p>
+          </section>
+
+          <section id="reports">
+            <h2>Dashboard and reports</h2>
+            <p>The <strong>dashboard</strong> gives a summary of the current month: net worth, income, expenses, savings rate, spending by category, a cash-flow trend, budget progress, top investments, loans, goals and upcoming recurring items.</p>
+            <p><strong>Net worth</strong> is the total of your account balances, plus the current value of your investments, plus money owed to you, minus money you owe.</p>
+            <p><strong>Savings rate</strong> is the share of the month's income you didn't spend.</p>
+            <p><strong>Reports</strong> let you pick any date range and filter by account or category to see totals, a month-by-month breakdown and spending by category.</p>
+          </section>
+
+          <section id="backup">
+            <h2>Backup and restore</h2>
+            <div class="callout callout-warn">
+              <p><strong>Your data exists only on this phone.</strong> There is no cloud copy and no account to recover. If you lose the phone, uninstall the app or clear its data without a backup, your records are gone for good.</p>
+            </div>
+            <p>Back up regularly. Once a week is a good habit, and always before updating your phone, resetting it or uninstalling the app.</p>
+
+            <h3>Create a backup</h3>
+            <ol>
+              <li>Open <strong>Settings</strong> and tap <strong>Backup</strong>.</li>
+              <li>Choose where to save the file. Android will let you save it to your phone's storage or send it to another app.</li>
+              <li>Copy the file somewhere off the phone, such as your computer or a storage service you trust.</li>
+            </ol>
+            <p>The backup is a single JSON file containing everything: accounts, categories, transactions, budgets, investments, loans, goals, recurring items and settings.</p>
+
+            <div class="callout">
+              <p><strong>Keep the backup file safe.</strong> It is <strong>not encrypted</strong> and contains all of your financial records in readable form. Anyone who gets the file can read it. Don't post it, email it to others, or leave it in shared folders. Store it somewhere only you can access.</p>
+            </div>
+
+            <h3>Restore a backup</h3>
+            <ol>
+              <li>Open <strong>Settings</strong> and tap <strong>Restore</strong>.</li>
+              <li>Select your backup file.</li>
+              <li>Confirm. The app replaces the data on the phone with the data from the file.</li>
+            </ol>
+            <p>Restoring overwrites what is currently in the app. If you have entries on the phone that aren't in the backup, make a fresh backup first.</p>
+
+            <h3>CSV export and import</h3>
+            <p><strong>Export CSV</strong> in Settings saves your transactions as a spreadsheet file you can open in Excel, Google Sheets or LibreOffice. <strong>Import CSV</strong> adds transactions from a file in the same format, which is handy for bringing in records from another app. A CSV contains transactions only, so use the JSON backup to save everything.</p>
+          </section>
+
+          <section id="new-phone">
+            <h2>Moving to a new phone</h2>
+            <ol>
+              <li>On the old phone, open <strong>Settings → Backup</strong> and save the file.</li>
+              <li>Move the file to the new phone, for example over USB, Nearby Share or a storage service you trust.</li>
+              <li>Install Money Manager on the new phone.</li>
+              <li>Open <strong>Settings → Restore</strong> and choose the file.</li>
+              <li>Check that your balances match, then delete the copy of the backup from any place you used only for the transfer.</li>
+            </ol>
+            <p>Android's own device-to-device transfer or Google backup may also move app data, depending on your phone and settings. Don't rely on it alone: a backup file you made yourself is the dependable option.</p>
+          </section>
+
+          <section id="app-lock">
+            <h2>App lock</h2>
+            <p>You can turn on an app lock in <strong>Settings</strong>. When enabled, the app asks for a 4 to 6 digit PIN each time it opens. Fingerprint and face unlock are not supported.</p>
+            <p>Choose a PIN you will remember. There is no account to reset it through.</p>
+          </section>
+
+          <section id="faq">
+            <h2>FAQ</h2>
+            <details>
+              <summary>Is Money Manager really free?</summary>
+              <p>Yes. There are no ads, no in-app purchases and no subscription.</p>
+            </details>
+            <details>
+              <summary>Do I need an internet connection?</summary>
+              <p>No. The app works fully offline and makes no network requests.</p>
+            </details>
+            <details>
+              <summary>Can I use it on two phones and keep them in sync?</summary>
+              <p>No. There is no sync because there is no server. You can move data between phones with a backup file, but changes made on one phone won't appear on the other.</p>
+            </details>
+            <details>
+              <summary>Can the app connect to my bank and import transactions automatically?</summary>
+              <p>No. Entries are added by you, or imported from a CSV file.</p>
+            </details>
+            <details>
+              <summary>Does it support more than one currency at once?</summary>
+              <p>No. All amounts use the single currency you chose. Changing the currency in Settings changes the symbol and format only; it doesn't convert existing amounts.</p>
+            </details>
+            <details>
+              <summary>Can I attach receipt photos?</summary>
+              <p>Not in the current mobile app. Use the note field to record details.</p>
+            </details>
+            <details>
+              <summary>Why doesn't my investment show the latest market price?</summary>
+              <p>The app never goes online, so it can't fetch prices. Add a valuation whenever you want to update the current value.</p>
+            </details>
+            <details>
+              <summary>I forgot my PIN. What can I do?</summary>
+              <p>There is no remote reset. If you can't unlock the app, you would need to clear its data, which deletes your records, and then restore from your latest backup.</p>
+            </details>
+            <details>
+              <summary>Where is my data stored?</summary>
+              <p>In a private database inside the app's storage on your phone. Other apps can't read it. See the <a href="privacy.html">privacy policy</a> for details.</p>
+            </details>
+            <details>
+              <summary>How do I delete everything?</summary>
+              <p>Use <strong>Settings → Delete all data</strong>, or see <a href="delete-data.html">how to delete your data</a> for other options.</p>
+            </details>
+            <details>
+              <summary>I found a bug or have a suggestion.</summary>
+              <p>Please open an issue on <a href="https://github.com/shohansk/money-manager-site/issues">GitHub Issues</a>. Don't include real financial data or your backup file.</p>
+            </details>
+            <p class="back-top"><a href="#top">Back to top</a></p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 shohansk. Money Manager is free to use.</p>
+      <ul>
+        <li><a href="guide.html">User guide</a></li>
+        <li><a href="privacy.html">Privacy policy</a></li>
+        <li><a href="delete-data.html">Delete data</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="https://github.com/shohansk/money-manager-site/issues">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
