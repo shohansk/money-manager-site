@@ -1,12 +1,5 @@
 # Screenshots
 
-The home page expects these files in this folder. Until they exist, each frame shows a neutral placeholder.
+Real app screens (sample data), 720px wide WebP, used on the home page. Full-size PNGs (1170x2532) for the Play listing live in `store/screenshots/` in the main repo.
 
-| File | Screen |
-|---|---|
-| `screenshot-dashboard.png` | Dashboard (net worth, month totals) |
-| `screenshot-transactions.png` | Transactions list |
-| `screenshot-budgets.png` | Budgets with progress |
-| `screenshot-investments.png` | Investments with profit and ROI |
-
-Use portrait phone screenshots (about 9:19.5, for example 1080 x 2340). Images are cropped to fill the frame from the top. Use demo data, never real financial records.
+Regenerate by running the app with `bun run dev` and opening it with `?demo=1` at a 390x844 phone viewport.
